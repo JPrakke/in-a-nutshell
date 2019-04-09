@@ -10,9 +10,6 @@ import text
 
 print(text.intro)
 
-img = Image.open("images/mEme.jpg")
-img.show()
-
 def meme():
     """ Makes user input into nutshell text """
 
