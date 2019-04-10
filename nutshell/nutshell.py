@@ -44,16 +44,19 @@ def meme():
         else:
             copy_query = input(text.copy_it).lower()
 
-meme()
-
-restart = input(text.restart_it).lower()
-while restart != "y" or restart != "n":
-    if restart == "y":
-        restart = ""
-        meme()
-    elif restart == "n":
-        restart = ""
-        print(text.outro)
-        break
-    else:
-        restart = input(text.restart_it).lower()
+def restart_meme():
+    restart = input(text.restart_it).lower()
+    while restart != "y" or restart != "n":
+        if restart == "y":
+            restart = ""
+            meme()
+        elif restart == "n":
+            restart = ""
+            print(text.outro)
+            break
+        else:
+            restart = input(text.restart_it).lower()
+    
+if __name__ == '__main__':
+    meme()
+    restart_meme()
