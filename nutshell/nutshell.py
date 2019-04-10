@@ -56,7 +56,10 @@ def restart_meme():
             break
         else:
             restart = input(text.restart_it).lower()
-    
-if __name__ == '__main__':
+
+def run():
     meme()
     restart_meme()
+
+if __name__ == '__main__':
+    run()
