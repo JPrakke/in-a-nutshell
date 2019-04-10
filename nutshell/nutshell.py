@@ -1,10 +1,3 @@
-# nusplit_stringhell.py
-# version 1.0
-# Josh Prakke
-# Description: A simple script to 
-# make your text meme appropriate
-# ie: iN a NuspltsHeLl 
-
 import pyperclip as pc
 from nutshell import text
 

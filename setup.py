@@ -1,6 +1,6 @@
 from distutils.core import setup
 
-VERSION = '0.1.5.1'
+VERSION = '0.1.5.2'
 
 setup(
     name='InANutshell',
@@ -19,7 +19,3 @@ setup(
         ]
     }
 )
-
-
-# Entry point format is terminal_command_name=python_script_name:main_method_name
-
