@@ -107,6 +107,8 @@ venv.bak/
 # config files
 Pipfile
 Pipfile.lock
+README.txt
+MANIFEST.in
 ##---------------------------sysfiles---------------------------##
 #                  various system files from each os
 #------------------------------mac-------------------------------#
