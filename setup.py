@@ -13,4 +13,13 @@ setup(
     license='MIT License',
     description='makes meme text',
     long_description=open('README.txt').read(),
+    entry_points = {
+        'console_scripts':[
+            'nutshell=nutshell:run'
+        ]
+    }
 )
+
+
+# Entry point format is terminal_command_name=python_script_name:main_method_name
+
