@@ -1,6 +1,6 @@
 from distutils.core import setup
 
-VERSION = '0.1.3'
+VERSION = '0.1.4'
 
 setup(
     name='InANutshell',
@@ -15,7 +15,7 @@ setup(
     long_description=open('README.txt').read(),
     entry_points = {
         'console_scripts':[
-            'nutshell=nutshell:run'
+            'nutshell=nutshell.nutshell:run'
         ]
     }
 )
