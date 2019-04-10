@@ -1,6 +1,6 @@
 from distutils.core import setup
 
-VERSION = '0.1.5.2'
+VERSION = '1.0'
 
 setup(
     name='InANutshell',
