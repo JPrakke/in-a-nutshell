@@ -3,10 +3,10 @@
 # Josh Prakke
 # Description: A simple script to 
 # make your text meme appropriate
-# ie: iN a Nusplit_stringHeLl 
+# ie: iN a NuspltsHeLl 
 
 import pyperclip as pc
-import text
+from nutshell import text
 
 print(text.intro)
 
