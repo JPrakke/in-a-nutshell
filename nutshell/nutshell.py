@@ -1,6 +1,6 @@
 import pyperclip as pc
-# from nutshell import text
-import text
+from nutshell import text
+
 print(text.intro)
 
 def meme():
