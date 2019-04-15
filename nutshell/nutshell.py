@@ -1,11 +1,9 @@
 import pyperclip as pc
-from nutshell import text
-
+# from nutshell import text
+import text
 print(text.intro)
 
 def meme():
-    """ Makes user input into nutshell text """
-
     counter = 1
     user_input = input("What would you like put in a nutshell? ")
     input_split = list(user_input.lower())
@@ -32,7 +30,6 @@ def meme():
             copy_query = ""
             break
         elif copy_query == "n":
-            copy_query = ""
             break
         else:
             print(text.error)
@@ -45,7 +42,6 @@ def restart_meme():
             restart = ""
             meme()
         elif restart == "n":
-            restart = ""
             print(text.outro)
             break
         else:
