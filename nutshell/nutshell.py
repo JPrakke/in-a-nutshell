@@ -35,6 +35,7 @@ def meme():
             copy_query = ""
             break
         else:
+            print(text.error)
             copy_query = input(text.copy_it).lower()
 
 def restart_meme():
@@ -48,6 +49,7 @@ def restart_meme():
             print(text.outro)
             break
         else:
+            print(text.error)
             restart = input(text.restart_it).lower()
 
 def run():
