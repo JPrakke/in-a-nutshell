@@ -3,6 +3,8 @@
 ---
 [PyPi Page](https://pypi.org/project/nInANutshell/)
 
+![mocking spongebob meme](https://github.com/JPrakke/in-a-nutshell/blob/master/assets/mocking-spongebob.jpg)
+
 Terminal based app that takes user input and formats it 
 to the mocking spongebob style text. 
 
