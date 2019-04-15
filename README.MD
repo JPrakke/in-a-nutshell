@@ -1,5 +1,5 @@
 # iN A NuTsHeLl
-#### Version 1.0.3
+#### Version 1.0.4
 ---
 [PyPi Page](https://pypi.org/project/nInANutshell/)
 
