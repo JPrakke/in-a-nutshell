@@ -1,7 +1,7 @@
 # iN A NuTsHeLl
 #### Version 1.0.4
 ---
-[PyPi Page](https://pypi.org/project/nInANutshell/)
+[PyPi Page](https://pypi.org/project/InANutshell/)
 
 ![mocking spongebob meme](https://github.com/JPrakke/in-a-nutshell/blob/master/assets/mocking-spongebob.jpg)
 
@@ -11,7 +11,7 @@ to the mocking spongebob style text.
 ie: tErMiNaL BaSeD ApP ThAt tAkEs uSeR InOuT AnD FoRmAtS 
 It tO ThE MoCkInG SpOnGeBoB StYlE TeXt.
 
-Can be installed from its [PyPi page](https://pypi.org/project/nInANutshell/)
+Can be installed from its [PyPi page](https://pypi.org/project/InANutshell/)
 via `pip install InANutshell`.
 
 ### To launch app locally
